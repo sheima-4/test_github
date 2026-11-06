@@ -11,7 +11,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         VBox root = new VBox();
-        Scene scene = new Scene(root, 320, 240);
+        Scene scene = new Scene(root, 400, 400);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
